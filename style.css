@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:wght@400;700&family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "League Spartan", sans-serif;
+}
+
+body {
+    background: url("https://images6.alphacoders.com/992/992454.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    background-color: #681525;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    padding: 20px;
+   
+}
+
+.buttons{
+    display: inline-flex;
+    gap: 30px;
+    font-size: 20px;
+    margin: 25px 0;
+    
+    
+}
+
+button{
+    font-size: 50px;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#rock{
+    background: rgb(150, 148, 148);
+}
+
+
+#scissors{
+    background-color: rgb(90, 87, 87);
+}
+
+#your-score{
+    color: rgb(0, 98, 255);
+}
+
+#machine-score{
+    color: #f94f00;
+}
